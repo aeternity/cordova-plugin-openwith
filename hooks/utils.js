@@ -13,7 +13,7 @@ function getPreferences(context, projectName) {
     value: getCordovaParameter(configXml, 'DISPLAY_NAME') || projectName
   }, {
     key: '__BUNDLE_IDENTIFIER__',
-    value: getCordovaParameter(configXml, 'IOS_BUNDLE_IDENTIFIER') + BUNDLE_SUFFIX
+    value: 'com.superhero.cordova' + BUNDLE_SUFFIX
   }, {
     key: '__BUNDLE_SHORT_VERSION_STRING__',
     value: plist.CFBundleShortVersionString
