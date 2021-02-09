@@ -22,7 +22,7 @@ function getPreferences(context, projectName) {
     value: plist.CFBundleVersion
   }, {
     key: '__URL_SCHEME__',
-    value: getCordovaParameter(configXml, 'IOS_URL_SCHEME')
+    value: 'hf938wofijfjhsdlsf23'
   }];
 }
 
